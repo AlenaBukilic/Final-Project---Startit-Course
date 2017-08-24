@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Page Hostino</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="login">
+	<div class="login-left">
+		<img src="images/logo.png" alt="logo hostino">
+		<h3>Sign in to your account</h3>
+		<form>
+			<input type="email" name="email" placeholder="E-mail address" required>
+			<input type="password" name="password" placeholder="Password" required>
+			<button>Sign in<span class="fa fa-arrow-right"></span></button>
+		</form>
+	</div>
+	<div class="login-right">
+		<div class="login-text">
+			<p>Don't have account?</p>
+			<button>Sing up<span class="fa fa-arrow-right"></span></button>
+		</div>
+		<img id="loginImg" src="images/imgb2.png">
+		<p id="loginPara" class="big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas non ante non consequat. Aenean accumsan eros vel elit tristique, non sodales nunc luctus. Etiam vitae odio eget orci finibus auctor ut eget magna.</p>
+	</div>
+</section>
+<div class="color">
+	<div class="treeLines">
+		<div onclick="showImg1()" class="underline2"></div>
+		<div onclick="showImg2()" class="underline2 mid"></div>
+		<div onclick="showImg3()" class="underline2"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
